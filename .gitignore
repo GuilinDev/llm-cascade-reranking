@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+.venv/
+.env
+
+# Raw datasets (multi-GB; regenerate via scripts/download_movielens.sh and
+# the AmazonLoader downloader — see README)
+data/raw/
+
+# Superseded cache iterations (pre-2026-07-15 protocol; kept locally only)
+data/cache/*.bak
+data/cache/lamp3_bpr_top5.json
+data/cache/amazon_bpr_top100.json
+data/cache/tier1/poisoned/
+
+# Superseded root-level experiment results (pre-rerun era; the paper's
+# results live in experiments/iaai/)
+experiments/*.json
+experiments/*.log
+
+# Paper sources (not part of the code release)
+paper/
+paper_iaai/
+
+# Superseded RecSys-era batch scripts and local GPU-scheduling helpers
+scripts/run_all.sh
+scripts/run_lamp3.sh
+scripts/run_quick_matrix.sh
+scripts/run_remaining.sh
+scripts/wait_gpu_then_run.sh
+scripts/link_lamp3.sh
+scripts/fill_tables.py
+
+# Internal dev notes
+CLAUDE.md
+PLAN.md
+IAAI27_PLAN.md
+AAAI27_PLAN.md
+.claude/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+texput.log
