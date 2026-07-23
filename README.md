@@ -78,7 +78,7 @@ committed caches, steps 4–5 replay Tier-1 instantly and only re-run Tier-2 cal
 which the model answered the reranking prompt with free-text essays instead of the
 requested ID list (97% parse failure on MovieLens), silently degrading to retrieval
 order. These runs are excluded from the paper's tables and kept as evidence for the
-output-compliance lesson (paper, Lessons Learned); the `--strict-output` prompt
+output-compliance lesson (paper, Deployment Insights); the `--strict-output` prompt
 suffix that fixes it is in `src/cascade/reranker.py`.
 
 ## Citing
