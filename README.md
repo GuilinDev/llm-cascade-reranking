@@ -85,11 +85,12 @@ suffix that fixes it is in `src/cascade/reranker.py`.
 
 ```bibtex
 @inproceedings{cascaderec2027,
-  title  = {CascadeRec: Deployed Adaptive LLM Compute Allocation for
-            Multi-Tenant Content Recommendation},
-  author = {Zhang, Guilin and Zhao, Kai and Chu, Xu},
-  note   = {Under review},
-  year   = {2027}
+  title     = {CascadeRec: Deployed Adaptive LLM Compute Allocation for
+               Multi-Tenant Content Recommendation},
+  author    = {Zhao, Kai and Zhang, Guilin and Cheng, Xiang and Cui, Xiquan and
+               Heng, Henry and Chu, Xu and Blanken, Alet},
+  booktitle = {Proceedings of the 39th Annual Conference on Innovative Applications of Artificial Intelligence (IAAI-27)},
+  year      = {2027}
 }
 ```
 
