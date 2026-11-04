@@ -2,7 +2,7 @@
 
 **Adaptive LLM compute allocation for personalized reranking: a small model reranks every request, a router escalates only the requests where expensive inference is likely to help.**
 
-> **Paper:** *CascadeRec: Deployed Adaptive LLM Compute Allocation for Multi-Tenant Content Recommendation* (under review, IAAI-27). The system is referred to as **CascadeRec** in the paper.
+> **Paper:** *CascadeRec: Deployed Adaptive LLM Compute Allocation for Multi-Tenant Content Recommendation* (IAAI-27, Oral). The system is referred to as **CascadeRec** in the paper.
 
 This repository contains the complete offline validation pipeline from the paper: datasets, first-stage retrieval, LLM reranking tiers, routers, metrics, statistical analysis, and every cached artifact needed to reproduce the reported tables. The production deployment (AWS EKS / GKE, vLLM + Amazon Bedrock) is described in the paper; tenant data and production code are not released.
 
